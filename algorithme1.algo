@@ -1,0 +1,28 @@
+Algorithme sentense
+
+VAR
+c := char;
+str := sytring;
+nbr-v,nbr-m,nbr-l := INTEGER ;
+
+BEGIN
+{ while
+
+   {if c =" " THEN
+       nbr-m:=nbr-m+1 ;
+   end_if
+   } }
+
+  {if c = A or a THEN
+   nbr-v:= nbr-v +1 ;
+   end_if
+
+   nbr-l := nbr-l+1 ;
+  }
+Until c ="."
+
+write( "le nombre de caractere est ",nbr-l+1 )
+write (" le nombre de mot est ",nbr-m)
+write (" le nombre de voyelle est ",nbr-v)
+
+end
